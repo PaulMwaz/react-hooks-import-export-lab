@@ -1,4 +1,5 @@
 import React from "react";
+import { image } from "../data/user"; // Relative path to the user.js file
 
 function About() {
   return (
@@ -9,3 +10,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
