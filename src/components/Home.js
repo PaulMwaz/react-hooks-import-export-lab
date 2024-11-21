@@ -1,9 +1,9 @@
 import React from "react";
-import { username, city } from "../data/user"; // Relative path to the user.js file
+import { username, city } from "../data/user"; // Ensure this path is correct
 
 function Home() {
   return (
-    <div id="home">
+    <div id="home" style={{ padding: "20px", textAlign: "center" }}>
       <h1>
         {username} is a Web Developer from {city}
       </h1>
